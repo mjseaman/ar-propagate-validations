@@ -1,13 +1,29 @@
+
+body {
+  background: url('http://upload.wikimedia.org/wikipedia/en/9/97/Liquor_Bottles_on_a_Bar_Wall.JPG') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .container {
   margin: 20px auto;
   width: 800px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  padding: 20px;
+  border-radius: 1em;
+  background-color:rgba(255,255,255,0.75);
 }
 
 .container h1 {
-  font-size: 17pt;
+  margin-top: 0;
+  font-size: 20pt;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
 
+h2 {
+  font-size: 130%;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
 
 nav {
@@ -37,7 +53,7 @@ nav li {
 }
 
 nav li a {
-  color: gray;
+  color: white;
   text-decoration: none;
 }
 
